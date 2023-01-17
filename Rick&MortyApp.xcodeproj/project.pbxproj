@@ -18,7 +18,10 @@
 		FB17EF812976BA3000711947 /* RMCharacterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB17EF802976BA3000711947 /* RMCharacterViewController.swift */; };
 		FB17EF832976BA4900711947 /* RMLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB17EF822976BA4900711947 /* RMLocationViewController.swift */; };
 		FB17EF852976BA5300711947 /* RMEpisodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB17EF842976BA5300711947 /* RMEpisodeViewController.swift */; };
-		FB17EF872976BA6E00711947 /* RMSettingesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB17EF862976BA6E00711947 /* RMSettingesViewController.swift */; };
+		FB17EF872976BA6E00711947 /* RMSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB17EF862976BA6E00711947 /* RMSettingsViewController.swift */; };
+		FB17EF892976DD6400711947 /* RMService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB17EF882976DD6400711947 /* RMService.swift */; };
+		FB17EF8B2976DD7600711947 /* RMRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB17EF8A2976DD7600711947 /* RMRequest.swift */; };
+		FB17EF8D2976DE7000711947 /* RMEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB17EF8C2976DE7000711947 /* RMEndpoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +38,10 @@
 		FB17EF802976BA3000711947 /* RMCharacterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterViewController.swift; sourceTree = "<group>"; };
 		FB17EF822976BA4900711947 /* RMLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMLocationViewController.swift; sourceTree = "<group>"; };
 		FB17EF842976BA5300711947 /* RMEpisodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEpisodeViewController.swift; sourceTree = "<group>"; };
-		FB17EF862976BA6E00711947 /* RMSettingesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSettingesViewController.swift; sourceTree = "<group>"; };
+		FB17EF862976BA6E00711947 /* RMSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSettingsViewController.swift; sourceTree = "<group>"; };
+		FB17EF882976DD6400711947 /* RMService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMService.swift; sourceTree = "<group>"; };
+		FB17EF8A2976DD7600711947 /* RMRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMRequest.swift; sourceTree = "<group>"; };
+		FB17EF8C2976DE7000711947 /* RMEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEndpoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +128,9 @@
 		FB17EF762976B87400711947 /* APIClient */ = {
 			isa = PBXGroup;
 			children = (
+				FB17EF882976DD6400711947 /* RMService.swift */,
+				FB17EF8A2976DD7600711947 /* RMRequest.swift */,
+				FB17EF8C2976DE7000711947 /* RMEndpoint.swift */,
 			);
 			path = APIClient;
 			sourceTree = "<group>";
@@ -144,7 +153,7 @@
 				FB17EF802976BA3000711947 /* RMCharacterViewController.swift */,
 				FB17EF822976BA4900711947 /* RMLocationViewController.swift */,
 				FB17EF842976BA5300711947 /* RMEpisodeViewController.swift */,
-				FB17EF862976BA6E00711947 /* RMSettingesViewController.swift */,
+				FB17EF862976BA6E00711947 /* RMSettingsViewController.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -219,15 +228,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB17EF872976BA6E00711947 /* RMSettingesViewController.swift in Sources */,
+				FB17EF872976BA6E00711947 /* RMSettingsViewController.swift in Sources */,
 				FB17EF7E2976B94E00711947 /* RMEpisode.swift in Sources */,
 				FB17EF622976B5F500711947 /* RMTabBarController.swift in Sources */,
 				FB17EF5E2976B5F500711947 /* AppDelegate.swift in Sources */,
 				FB17EF852976BA5300711947 /* RMEpisodeViewController.swift in Sources */,
 				FB17EF602976B5F500711947 /* SceneDelegate.swift in Sources */,
 				FB17EF792976B92000711947 /* RMLocation.swift in Sources */,
+				FB17EF892976DD6400711947 /* RMService.swift in Sources */,
 				FB17EF832976BA4900711947 /* RMLocationViewController.swift in Sources */,
+				FB17EF8D2976DE7000711947 /* RMEndpoint.swift in Sources */,
 				FB17EF7C2976B93A00711947 /* RMCharacter.swift in Sources */,
+				FB17EF8B2976DD7600711947 /* RMRequest.swift in Sources */,
 				FB17EF812976BA3000711947 /* RMCharacterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
